@@ -1,0 +1,169 @@
+/*/* http://template-demo.org/jigo/JGO01/JGO010003/ **/
+body {
+	margin: 0;
+	padding: 0;
+	background-image: url(../images/body-bg.png)
+}
+
+/*div {
+	border: 1px solid red;
+}*/
+
+#search > input {
+	
+	width: 100%;
+}
+
+@media (min-width: 1200px) {
+	.container {
+	width: 1000px;
+	}
+	#header > div:nth-child(2) {
+	margin-top: 52px;
+	}
+	#search > input {
+	width: 230px;
+	}
+	
+#meni {
+	background-image: url(../images/menu_bg.png);
+	border-radius: 8px;
+
+}
+
+#meni ul li {
+	list-style-type: none;
+	float: left;
+
+}
+
+#meni ul {
+	margin: 0;
+	padding: 0;
+}
+
+#meni > div > ul > li > a {
+	color: white;
+	font-family: 'Open Sans', sans-serif;
+	text-decoration: none;
+	text-transform: uppercase;
+	font-size: 16px;
+	display: block;
+	padding: 5px 10px;
+
+}
+
+#meni > div > ul > li > a:before {
+	width: 18px;
+	background-image: url(../images/saprator.png);
+	background-repeat: no-repeat;
+	content: " ";
+	height: 27px;
+	display: block;
+	float: left;
+}
+
+#meni > div > ul > li:first-child > a:before {
+	content: "";
+	width:0;
+
+}
+
+.neki {
+	position: relative;
+}
+.sub_menu {
+	display:none;
+	position: absolute;
+	left: 12px;
+}
+
+.neki:hover .sub_menu {
+	display: block;
+
+}
+.sub_menu li {
+	width: 150px;
+	float: none !important;
+}
+.sub_menu li a {
+	background-color: grey;
+	display: block;
+	width: 150px;
+	color: black;
+	padding: 10px;
+}
+}
+
+@media (min-width: 992px) {
+	
+
+}
+
+#header {
+	min-height: 130px;
+}
+
+#header > div:first-child{
+	margin-top: 40px;
+}
+
+#header > div:last-child {
+	text-align: right;
+}
+
+#tel {
+	color:#973C3E;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 14px;	
+}
+
+#cart a {
+	font-size: 14px;
+	color: #5B5B5B;
+	text-decoration: none;
+}
+
+#cart a:hover span:first-child {
+	color:#973C3E;;
+}
+
+#cart a span:last-child {
+	font-size: 15px;
+	color:#fff;
+	background-color: #973C3E;
+	display: block;
+	width: 25px;
+	height: 25px;
+	line-height: 25px;
+	margin-left: 5px;
+	text-align: center;
+	border-radius: 50%;
+}
+
+#top_menu {
+	padding-top: 5px;
+}
+#top_menu ul {
+	margin: 0 0 0 auto;
+	padding: 0;
+	width:257px;
+
+}
+
+
+#top_menu ul li {
+	list-style-type: none;
+	float: left;
+	text-align: center;
+	padding: 0 5px;
+}
+
+#top_menu ul li:after {
+	content: " | ";
+}
+
+#top_menu ul li:last-child:after {
+	content: "";
+}
+
